@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot",
+  "main": "tgBot.js",
+  "scripts": {
+    "start": "node tgBot.js",
+    "dev": "nodemon tgBot.js"
+  },
+  "engines": {
+    "node": "14.6.0"
+  },
+  "author": "Abdul-Malik Saydulaev",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}
