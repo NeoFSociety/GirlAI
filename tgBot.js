@@ -15,7 +15,7 @@ bot.on('message', msg => {
             setTimeout(() => bot.sendMessage(id, 'МАЛИК'), 1700)
         }
         //привет
-        if((msg.text[0] == 'п' || msg.text[0] == ' П') && (msg.text[msg.text.length - 1] == 'т' || msg.text[msg.text.length - 1] == 'Т' || msg.text[msg.text.length - 1] == ')')){
+        if((msg.text[0] == 'п' || msg.text[0] == 'П') && (msg.text[msg.text.length - 1] == 'т' || msg.text[msg.text.length - 1] == 'Т' || msg.text[msg.text.length - 1] == ')')){
             let num = Math.floor(Math.random() * 150)
             if (num <= 33){
                 setTimeout(() => bot.sendMessage(id, 'привеет'), 1500)
@@ -32,7 +32,7 @@ bot.on('message', msg => {
         }
 
         //кто я?)
-        if(msg.text == 'кто я?)'){
+        if(msg.text == 'кто я?)' || msg.text == 'кто я?' || msg.text == 'кто я'){
             setTimeout(() => bot.sendMessage(id, 'ты тот самый))'), 2000)
         }
         //ееей)
@@ -49,7 +49,7 @@ bot.on('message', msg => {
             }
         }
         //пиши мне:
-        if(msg.text == 'пиши мне что-то)'){
+        if(msg.text == 'пиши мне что-то)' || msg.text == 'пиши мне что-то' || msg.text == 'пиши мне)' || msg.text == 'пиши мне' || msg.text == 'яз е цхьаъ)' || msg.text == 'яз е цхьаъ'){
             setTimeout(() => bot.sendMessage(id, 'ху ю'), 1000)
             setTimeout(() => bot.sendMessage(id, 'аа все)'), 2500)
             setTimeout(() => bot.sendMessage(id, 'тебе одиноко('), 4000)
