@@ -1,3 +1,3 @@
 # GirlOfMyLife
-Welcome to my bot
+February Version 🦋🦋🦋
 v.1.0.1
