@@ -13,7 +13,7 @@ bot.on('message', msg => {
     const id = msg.chat.id
 
     //Когда пишу я:
-    if(msg.from.first_name == 'John'){
+    if(msg.from.first_name == 'S'){
         //ХАДИШТ - МАЛИК
         if((msg.text.length == 6) && (msg.text[0] == 'х' || msg.text[0] == 'Х')) {
             setTimeout(() => bot.sendMessage(id, 'МАЛИК'), 1700)
@@ -204,7 +204,7 @@ bot.on('message', msg => {
         }
     }
     //Когда пишет она:
-    if(msg.from.first_name != 'John'){
+    if(msg.from.first_name != 'S'){
         if((msg.text.length == 6) && (msg.text[0] == 'х' || msg.text[0] == 'Х')) {
             setTimeout(() => bot.sendMessage(id,'ты кто?'), 1000)
             setTimeout(() => bot.sendMessage(id,'Извините?'), 2000)
