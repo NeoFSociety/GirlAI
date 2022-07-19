@@ -203,6 +203,7 @@ bot.on('message', msg => {
             }
         }
     }
+    /**
     //Когда пишет она:
     if(msg.from.first_name != "S"){
         if((msg.text.length == 6) && (msg.text[0] == 'х' || msg.text[0] == 'Х')) {
@@ -220,7 +221,7 @@ bot.on('message', msg => {
             setTimeout(() => bot.sendMessage(id,'Фатима'), 1000)
         }
     }
-
+    */
 })
 
 
