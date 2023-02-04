@@ -1,3 +1,3 @@
-# GirlOfMyLife
-February Version 🦋🦋🦋
+# GirlAI
+February Version 
 v.1.0.1
